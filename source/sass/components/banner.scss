@@ -1,0 +1,88 @@
+.banner {
+  width: 100%;
+  min-height: 880px;
+
+  overflow-x: hidden;
+
+  background: $banner-color url("../../img/banner-decor.svg") no-repeat center center;
+}
+
+.banner__wrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: inherit;
+  max-width: 1405px;
+  border: 1px solid transparent;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 262px;
+    right: -5%;
+    display: block;
+    width: 705px;
+    height: 505px;
+
+    background: url("../../img/banner-chip.png") no-repeat center center;
+
+  }
+
+  background: url("../../img/retranigle-group.svg") no-repeat 48% center;
+
+}
+
+.banner__content-container {
+  position: relative;
+
+  margin-top: 33px;
+  padding-left: 98px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 17px;
+    left: 0;
+
+    display: block;
+    width: 66px;
+    height: 2px;
+
+    background-color: #ffffff;
+  }
+}
+
+.banner__title {
+  margin: 0;
+  margin-top: 323px;
+
+  font-size: 80px;
+  line-height: 100%;
+  color: #ffffff;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.banner__text {
+  max-width: 683px;
+
+  margin: 0;
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.banner__btn {
+  padding: 19px 24px 19px 24px;
+  margin-top: 42px;
+  max-width: 407px;
+
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}

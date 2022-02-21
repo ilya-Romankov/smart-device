@@ -1,0 +1,28 @@
+.logo {
+
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+}
+
+.logo__name {
+  margin-left: 16px;
+
+  span {
+    display: block;
+  }
+}
+
+.logo__title {
+  color: $logo-title;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.logo__subtitle {
+  color: $logo-subtitle;
+  font-size: 12px;
+  line-height: 12px;
+}
